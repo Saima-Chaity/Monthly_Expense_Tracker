@@ -185,7 +185,6 @@ function newtable(neWdata)
         {
             this.reset();
         });
-
 }
 //get total cost after adding new data through post request
 function getTotal(data)
