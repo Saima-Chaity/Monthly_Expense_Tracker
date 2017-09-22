@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Monthly Expense</title>
+         <link rel="stylesheet" type="text/css" href="index.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body class="body">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="file:///Users/mdakbar/Desktop/Chaity/Monthly-Expense/index.html">Expense Tracker</a>
+                </div>
+            </div>
+        </nav>
+        <div class="list">
+            <h1 class="heading"> Monthly_Expense_Report </h1>
+            <ul class="listItem">
+                <li id="january"><a href="#month">JANUARY</a></li>
+                <li id= "february"><a href="#month">FEBRUARY</a></li>
+                <li id= "march"><a href="#month">MARCH</a></li>
+                <li id= "april"><a href="#month">APRIL</a></li>
+                <li id= "may"><a href="#month">MAY</a></li>
+                <li id= "june"><a href="#month">JUNE</a></li>
+                <li id= "july"><a href="#month">JULY</a></li>
+                <li id= "august"><a href="#month">AUGUST</a></li>
+                <li id= "september"><a href="#month">SEPTEMBER</a></li>
+                <li id= "october"><a href="#month">OCTOBER</a></li>
+                <li id= "november"><a href="#month">NOVEMBER</a></li>
+                <li id= "december"><a href="#month">DECEMBER</a></li>   
+            </ul>
+        </div>
+        <br>
+        <div id="month">
+            <h2 class="heading">Report For Clicked Month</h2>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Product_Name</th>
+                        <th>Date</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                        <th>Quantity*Cost</th>
+                    </tr>
+                </thead>  
+            </table>
+            <table>
+                <tfoot>
+                    <tr>
+                        <td class ='total_cost'>Total_Cost=</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+                <div id="refresh">Try For Another Month!!!</div>
+            <br>
+        </div>
+        <div id="form">
+            <div class="heading">Add more products with details</div><br>
+            <form>
+                <div class="form-group">
+                    <label for="id">ID</label>
+                    <input type="number"  id="id" placeholder= "ID" required>
+                </div>
+                <div class="form-group">
+                    <label for="productName">Product_Name</label>
+                    <input type="text"  id="productName" placeholder= "Product_Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="text"  id="date" placeholder= "Date" required>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantity</label>
+                    <input type="number"  id="quantity" placeholder= "Quantity" required>
+                </div>
+                <div class="form-group">
+                    <label for="cost">Cost</label>
+                    <input type="number"  id="cost" placeholder= "Cost" required>
+                </div>
+            </form>
+            <div class="button">
+                <button class="january">ADD</button>
+                <button class="february">ADD</button>
+                <button class= "march">ADD</button>
+                <button class="april">ADD</button>
+                <button class="may">ADD</button>
+                <button class="june">ADD</button>
+                <button class="july">ADD</button>
+                <button class="august">ADD</button>
+                <button class="september">ADD</button>
+                <button class="october">ADD</button>
+                <button class="november">ADD</button>
+                <button class="december">ADD</button>
+            </div>
+        </div>
+        <script src="file:///Users/mdakbar/Desktop/Chaity/Monthly-Expense/index.js"></script>
+    </body>
+</html>
