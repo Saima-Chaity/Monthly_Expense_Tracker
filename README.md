@@ -1,6 +1,5 @@
 # Monthly_Expense_Tracker
-While I was learning Ajax, I thought of doing some project work to implement my knowledge. Finally, I designed and developed an expense recorder application which keeps record of all expenses and provides total cost for each month. I used HTML, CSS, Bootstrap, jQuery, and Ajax for my work.  
-
+While I was learning Ajax, I thought of doing some project work to implement my knowledge. Finally, I designed and developed an expense recorder application which keeps record of all expenses and provides total cost for each month. 
 When any month is clicked, it will show result for that particular month-
 <img width="1277" alt="screen shot 2017-09-25 at 3 06 32 pm" src="https://user-images.githubusercontent.com/31779751/30833304-3ebef04c-a203-11e7-88be-97325d19d86d.png">
 
