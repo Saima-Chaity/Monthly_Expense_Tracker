@@ -9,8 +9,8 @@ Result for clicked month, also with an option for adding more data to that parti
 <img width="1280" alt="screen shot 2017-09-25 at 3 08 10 pm" src="https://user-images.githubusercontent.com/31779751/30833371-759ca05a-a203-11e7-9000-4ef6f592e39f.png">
 
 Build with :<br>
-→ jQuery - Ajax
-→ HTML
-→ CSS
+→ jQuery - Ajax<br>
+→ HTML<br>
+→ CSS<br>
 → Bootstrap
 
