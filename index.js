@@ -61,7 +61,7 @@ function sumCalculation(data)
         sum = parseInt(data[i].quantity)* parseFloat(data[i].cost);
         total+= sum; 
         var totalCost= total.toFixed(2);
-        $('.total_cost').text("Total_Cost="+ totalCost);
+        $('.total_cost').text("Total_Cost= $"+ totalCost);
         $table.append('<tr><td>' + data[i].id + '</td>' + '<td>' + data[i].productName + '</td>' + '<td>' +
                data[i].date + '</td>' + '<td>'+ data[i].quantity+'</td>' + '<td>'+ data[i].cost +'</td>'+'<td>'+ sum +'</td></tr>');
     }
@@ -196,7 +196,7 @@ function getTotal(data)
         total+= parseInt(data[i].quantity) * parseFloat(data[i].cost);
         var totalCost= total.toFixed(2);
     }
-    $('.total_cost').text("Total_Cost="+ totalCost);
+    $('.total_cost').text("Total_Cost= $"+ totalCost);
     if (totalCost>=600)
     {
         alert('Oh no!! You have exceeded monthly limit.');
